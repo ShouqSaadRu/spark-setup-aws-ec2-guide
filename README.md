@@ -65,7 +65,7 @@ Create a directory to store your data:
 ```bash
 mkdir -p /home/ec2-user/data
 ```
-8. Download Data from S3
+### 8. Download Data from S3
 Download the dataset from Amazon S3:
 
 ```bash
@@ -86,11 +86,11 @@ $SPARK_HOME/bin/spark-shell
 Ensure that you replace <Master-Node-Private-IP> with the private IP address of your master EC2 instance.
 
 
-Use the Spark Web UI
+Use the Spark Web UI to monitor your cluster.
 ```bash
 http://<Master-Node-IP>:8080
 ```
- to monitor your cluster.
+
 ---
 ## Worker Node Setup
 
